@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ryan V | ADHD Burnout & Mental Health Podcast</title>
+  <meta name="description" content="Join Ryan V as he explores ADHD burnout, coping strategies, and real stories to help you manage mental health with compassion and clarity.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+    .card-hover { transition: all 0.3s ease; }
+    .card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <!-- Header -->
+  <header class="bg-white shadow-lg sticky top-0 z-50 backdrop-blur-sm bg-white/95">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-full flex items-center justify-center">
+          <span class="text-white font-bold text-lg">RV</span>
+        </div>
+        <h1 class="text-xl font-bold text-gray-800">Ryan V Podcast</h1>
+      </div>
+      <nav class="hidden md:flex space-x-8 text-sm font-medium">
+        <a href="#about" class="hover:text-indigo-600 transition-colors duration-200">About</a>
+        <a href="#episodes" class="hover:text-indigo-600 transition-colors duration-200">Episodes</a>
+        <a href="#resources" class="hover:text-indigo-600 transition-colors duration-200">Resources</a>
+        <a href="#listen" class="hover:text-indigo-600 transition-colors duration-200">Listen</a>
+        <a href="#contact" class="hover:text-indigo-600 transition-colors duration-200">Contact</a>
+      </nav>
+      <button class="md:hidden text-gray-600">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="gradient-bg py-20 text-center text-white relative overflow-hidden">
+    <div class="absolute inset-0 bg-black/10"></div>
+    <div class="relative z-10 max-w-4xl mx-auto px-6">
+      <div class="mb-6">
+        <span class="inline-block bg-white/20 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-medium mb-4">
+          🧠 Mental Health & ADHD Support
+        </span>
+      </div>
+      <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+        ADHD Burnout & Mental Health
+      </h1>
+      <p class="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-8 leading-relaxed">
+        Join <span class="font-semibold text-yellow-300">Ryan V</span> as he explores ADHD burnout, coping strategies, and real stories to help you manage mental health with compassion and clarity.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <a href="#listen" class="bg-white text-indigo-600 font-semibold px-8 py-4 rounded-full shadow-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105">
+          Listen Now
+        </a>
+        <a href="#about" class="border-2 border-white text-white font-semibold px-8 py-4 rounded-full hover:bg-white hover:text-indigo-600 transition-all duration-300">
+          Learn More
+        </a>
+      </div>
+    </div>
+    <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-gray-50 to-transparent"></div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-6xl mx-auto px-6 py-20">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">About Ryan V & The Podcast</h2>
+      <div class="w-24 h-1 bg-gradient-to-r from-indigo-500 to-purple-600 mx-auto rounded-full"></div>
+    </div>
+    
+    <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
+      <div>
+        <h3 class="text-2xl font-semibold text-gray-900 mb-6">Meet Ryan V</h3>
+        <p class="text-gray-700 leading-relaxed mb-4">
+          Ryan V is a mental health advocate, ADHD coach, and podcast host who understands the unique challenges of living with ADHD. After experiencing his own journey with ADHD burnout, Ryan dedicated himself to helping others navigate the complex intersection of neurodiversity and mental health.
+        </p>
+        <p class="text-gray-700 leading-relaxed">
+          With over 5 years of experience in mental health advocacy and a deep understanding of ADHD's impact on daily life, Ryan brings both professional insight and personal experience to every conversation.
+        </p>
+      </div>
+      <div class="bg-gradient-to-br from-indigo-50 to-purple-50 p-8 rounded-2xl">
+        <div class="text-center">
+          <div class="w-32 h-32 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-full mx-auto mb-6 flex items-center justify-center">
+            <span class="text-white text-4xl font-bold">RV</span>
+          </div>
+          <h4 class="text-xl font-semibold text-gray-900 mb-2">Ryan V</h4>
+          <p class="text-indigo-600 font-medium">ADHD Advocate & Mental Health Coach</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow-lg p-8">
+      <h3 class="text-2xl font-semibold text-gray-900 mb-6 text-center">Our Mission</h3>
+      <p class="text-gray-700 leading-relaxed text-center max-w-4xl mx-auto mb-8">
+        Living with ADHD often means balancing high energy with deep exhaustion. This podcast dives into the reality of <span class="font-semibold text-indigo-600">ADHD burnout</span>, providing tools, strategies, and heartfelt discussions to navigate the challenges of mental health. Each episode aims to empower listeners with knowledge, community, and support.
+      </p>
+      
+      <div class="grid md:grid-cols-3 gap-8 mt-12">
+        <div class="text-center">
+          <div class="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl">🎯</span>
+          </div>
+          <h4 class="font-semibold text-gray-900 mb-2">Practical Strategies</h4>
+          <p class="text-gray-600 text-sm">Evidence-based tools and techniques for managing ADHD symptoms and preventing burnout.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl">💬</span>
+          </div>
+          <h4 class="font-semibold text-gray-900 mb-2">Real Stories</h4>
+          <p class="text-gray-600 text-sm">Authentic conversations with community members sharing their experiences and insights.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl">🤝</span>
+          </div>
+          <h4 class="font-semibold text-gray-900 mb-2">Community Support</h4>
+          <p class="text-gray-600 text-sm">Building a supportive community where everyone's journey is valued and understood.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Episodes -->
+  <section id="episodes" class="bg-gray-50 py-20">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Latest Episodes</h2>
+        <div class="w-24 h-1 bg-gradient-to-r from-indigo-500 to-purple-600 mx-auto rounded-full"></div>
+      </div>
+      
+      <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div class="bg-white p-8 rounded-2xl shadow-lg card-hover">
+          <div class="flex items-center justify-between mb-4">
+            <span class="bg-indigo-100 text-indigo-600 px-3 py-1 rounded-full text-sm font-medium">Episode 1</span>
+            <span class="text-gray-500 text-sm">45 min</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">What is ADHD Burnout?</h3>
+          <p class="text-gray-600 mb-6 leading-relaxed">Understanding the unique cycle of ADHD energy and fatigue. Learn to recognize the signs and implement early intervention strategies.</p>
+          <div class="flex items-center justify-between">
+            <a href="#listen" class="text-indigo-600 font-semibold hover:text-indigo-700 transition-colors duration-200">
+              Listen Now →
+            </a>
+            <div class="flex space-x-2">
+              <span class="text-yellow-400">★★★★★</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl shadow-lg card-hover">
+          <div class="flex items-center justify-between mb-4">
+            <span class="bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm font-medium">Episode 2</span>
+            <span class="text-gray-500 text-sm">38 min</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Coping Strategies that Work</h3>
+          <p class="text-gray-600 mb-6 leading-relaxed">Practical ways to manage stress and protect your energy. Evidence-based techniques for sustainable self-care.</p>
+          <div class="flex items-center justify-between">
+            <a href="#listen" class="text-indigo-600 font-semibold hover:text-indigo-700 transition-colors duration-200">
+              Listen Now →
+            </a>
+            <div class="flex space-x-2">
+              <span class="text-yellow-400">★★★★★</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl shadow-lg card-hover">
+          <div class="flex items-center justify-between mb-4">
+            <span class="bg-green-100 text-green-600 px-3 py-1 rounded-full text-sm font-medium">Episode 3</span>
+            <span class="text-gray-500 text-sm">52 min</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Stories from the ADHD Community</h3>
+          <p class="text-gray-600 mb-6 leading-relaxed">Real voices, real experiences, and shared growth. Hear from community members about their journeys.</p>
+          <div class="flex items-center justify-between">
+            <a href="#listen" class="text-indigo-600 font-semibold hover:text-indigo-700 transition-colors duration-200">
+              Listen Now →
+            </a>
+            <div class="flex space-x-2">
+              <span class="text-yellow-400">★★★★★</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl shadow-lg card-hover">
+          <div class="flex items-center justify-between mb-4">
+            <span class="bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm font-medium">Episode 4</span>
+            <span class="text-gray-500 text-sm">41 min</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Medication & Mental Health</h3>
+          <p class="text-gray-600 mb-6 leading-relaxed">Navigating ADHD medication options and their impact on mental health with expert insights.</p>
+          <div class="flex items-center justify-between">
+            <a href="#listen" class="text-indigo-600 font-semibold hover:text-indigo-700 transition-colors duration-200">
+              Listen Now →
+            </a>
+            <div class="flex space-x-2">
+              <span class="text-yellow-400">★★★★★</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl shadow-lg card-hover">
+          <div class="flex items-center justify-between mb-4">
+            <span class="bg-pink-100 text-pink-600 px-3 py-1 rounded-full text-sm font-medium">Episode 5</span>
+            <span class="text-gray-500 text-sm">35 min</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Building Healthy Routines</h3>
+          <p class="text-gray-600 mb-6 leading-relaxed">Creating sustainable daily routines that work with your ADHD brain, not against it.</p>
+          <div class="flex items-center justify-between">
+            <a href="#listen" class="text-indigo-600 font-semibold hover:text-indigo-700 transition-colors duration-200">
+              Listen Now →
+            </a>
+            <div class="flex space-x-2">
+              <span class="text-yellow-400">★★★★★</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl shadow-lg card-hover">
+          <div class="flex items-center justify-between mb-4">
+            <span class="bg-teal-100 text-teal-600 px-3 py-1 rounded-full text-sm font-medium">Episode 6</span>
+            <span class="text-gray-500 text-sm">48 min</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Relationships & ADHD</h3>
+          <p class="text-gray-600 mb-6 leading-relaxed">How ADHD affects relationships and strategies for building stronger connections with loved ones.</p>
+          <div class="flex items-center justify-between">
+            <a href="#listen" class="text-indigo-600 font-semibold hover:text-indigo-700 transition-colors duration-200">
+              Listen Now →
+            </a>
+            <div class="flex space-x-2">
+              <span class="text-yellow-400">★★★★★</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-12">
+        <a href="#listen" class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+          View All Episodes
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="bg-gray-50 py-20">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">What Our Community Says</h2>
+        <div class="w-24 h-1 bg-gradient-to-r from-indigo-500 to-purple-600 mx-auto rounded-full"></div>
+        <p class="text-xl text-gray-600 mt-6 max-w-3xl mx-auto">Real stories from listeners who have found support, understanding, and practical strategies through our podcast.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-2xl shadow-lg">
+          <div class="flex items-center mb-4">
+            <div class="flex text-yellow-400">
+              <span>★★★★★</span>
+            </div>
+          </div>
+          <p class="text-gray-700 mb-6 italic">"Ryan's podcast has been a lifeline for me. Finally, someone who truly understands the unique challenges of ADHD burnout. The practical strategies have helped me manage my energy better than anything else I've tried."</p>
+          <div class="flex items-center">
+            <div class="w-12 h-12 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-full flex items-center justify-center mr-4">
+              <span class="text-white font-bold">S</span>
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-900">Sarah M.</h4>
+              <p class="text-gray-600 text-sm">ADHD Advocate</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl shadow-lg">
+          <div class="flex items-center mb-4">
+            <div class="flex text-yellow-400">
+              <span>★★★★★</span>
+            </div>
+          </div>
+          <p class="text-gray-700 mb-6 italic">"As someone who was recently diagnosed with ADHD in my 30s, this podcast has been incredibly validating. Ryan's approach is both professional and deeply personal. I feel less alone in my journey."</p>
+          <div class="flex items-center">
+            <div class="w-12 h-12 bg-gradient-to-r from-green-500 to-teal-600 rounded-full flex items-center justify-center mr-4">
+              <span class="text-white font-bold">M</span>
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-900">Michael R.</h4>
+              <p class="text-gray-600 text-sm">Software Engineer</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl shadow-lg">
+          <div class="flex items-center mb-4">
+            <div class="flex text-yellow-400">
+              <span>★★★★★</span>
+            </div>
+          </div>
+          <p class="text-gray-700 mb-6 italic">"The episode on building healthy routines completely changed how I approach my daily life. Ryan's insights are backed by research but presented in a way that's actually actionable for someone with ADHD."</p>
+          <div class="flex items-center">
+            <div class="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-600 rounded-full flex items-center justify-center mr-4">
+              <span class="text-white font-bold">J</span>
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-900">Jessica L.</h4>
+              <p class="text-gray-600 text-sm">Teacher & Parent</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl shadow-lg">
+          <div class="flex items-center mb-4">
+            <div class="flex text-yellow-400">
+              <span>★★★★★</span>
+            </div>
+          </div>
+          <p class="text-gray-700 mb-6 italic">"I've been listening since episode 1, and Ryan's authenticity is what keeps me coming back. He doesn't sugarcoat the challenges but always offers hope and practical solutions."</p>
+          <div class="flex items-center">
+            <div class="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-600 rounded-full flex items-center justify-center mr-4">
+              <span class="text-white font-bold">D</span>
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-900">David K.</h4>
+              <p class="text-gray-600 text-sm">Mental Health Counselor</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl shadow-lg">
+          <div class="flex items-center mb-4">
+            <div class="flex text-yellow-400">
+              <span>★★★★★</span>
+            </div>
+          </div>
+          <p class="text-gray-700 mb-6 italic">"This podcast helped me understand that my struggles weren't character flaws but part of my neurodivergent brain. The community stories episode made me feel so much less isolated."</p>
+          <div class="flex items-center">
+            <div class="w-12 h-12 bg-gradient-to-r from-teal-500 to-blue-600 rounded-full flex items-center justify-center mr-4">
+              <span class="text-white font-bold">A</span>
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-900">Alex T.</h4>
+              <p class="text-gray-600 text-sm">College Student</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl shadow-lg">
+          <div class="flex items-center mb-4">
+            <div class="flex text-yellow-400">
+              <span>★★★★★</span>
+            </div>
+          </div>
+          <p class="text-gray-700 mb-6 italic">"Ryan's expertise shines through in every episode. As a therapist, I often recommend this podcast to my clients with ADHD. It's become an essential resource in my practice."</p>
+          <div class="flex items-center">
+            <div class="w-12 h-12 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full flex items-center justify-center mr-4">
+              <span class="text-white font-bold">R</span>
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-900">Dr. Rachel W.</h4>
+              <p class="text-gray-600 text-sm">Licensed Therapist</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-16">
+        <div class="bg-white rounded-2xl shadow-lg p-8 max-w-4xl mx-auto">
+          <h3 class="text-2xl font-bold text-gray-900 mb-4">Join Our Community</h3>
+          <p class="text-gray-600 mb-6">Become part of a supportive community of individuals navigating ADHD and mental health challenges together.</p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="mailto:community@ryanvpodcast.com" class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold px-8 py-3 rounded-full hover:shadow-lg transition-all duration-300">
+              Share Your Story
+            </a>
+            <a href="#contact" class="border-2 border-indigo-600 text-indigo-600 font-semibold px-8 py-3 rounded-full hover:bg-indigo-600 hover:text-white transition-all duration-200">
+              Connect With Us
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resources -->
+  <section id="resources" class="bg-white py-20">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Helpful Resources</h2>
+        <div class="w-24 h-1 bg-gradient-to-r from-indigo-500 to-purple-600 mx-auto rounded-full"></div>
+        <p class="text-xl text-gray-600 mt-6 max-w-3xl mx-auto">Essential resources for ADHD support, mental health advocacy, and community connection.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Professional Organizations -->
+        <div class="bg-gradient-to-br from-indigo-50 to-indigo-100 p-8 rounded-2xl">
+          <div class="w-12 h-12 bg-indigo-600 rounded-full flex items-center justify-center mb-6">
+            <span class="text-white text-xl">🏥</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">Professional Organizations</h3>
+          <ul class="space-y-3">
+            <li><a href="https://chadd.org" class="text-indigo-600 hover:text-indigo-700 font-medium" target="_blank">CHADD – Children and Adults with ADHD</a></li>
+            <li><a href="https://www.adhdfoundation.org.uk" class="text-indigo-600 hover:text-indigo-700 font-medium" target="_blank">ADHD Foundation</a></li>
+            <li><a href="https://www.adhduk.co.uk" class="text-indigo-600 hover:text-indigo-700 font-medium" target="_blank">ADHD UK</a></li>
+            <li><a href="https://www.apa.org" class="text-indigo-600 hover:text-indigo-700 font-medium" target="_blank">American Psychological Association</a></li>
+          </ul>
+        </div>
+
+        <!-- Educational Resources -->
+        <div class="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-2xl">
+          <div class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mb-6">
+            <span class="text-white text-xl">📚</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">Educational Resources</h3>
+          <ul class="space-y-3">
+            <li><a href="https://additudemag.com" class="text-purple-600 hover:text-purple-700 font-medium" target="_blank">ADDitude Magazine</a></li>
+            <li><a href="https://www.understood.org" class="text-purple-600 hover:text-purple-700 font-medium" target="_blank">Understood.org</a></li>
+            <li><a href="https://www.helpguide.org" class="text-purple-600 hover:text-purple-700 font-medium" target="_blank">HelpGuide.org</a></li>
+            <li><a href="https://www.nimh.nih.gov" class="text-purple-600 hover:text-purple-700 font-medium" target="_blank">NIMH Resources</a></li>
+          </ul>
+        </div>
+
+        <!-- Mental Health Support -->
+        <div class="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-2xl">
+          <div class="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mb-6">
+            <span class="text-white text-xl">💚</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">Mental Health Support</h3>
+          <ul class="space-y-3">
+            <li><a href="https://www.crisistextline.org" class="text-green-600 hover:text-green-700 font-medium" target="_blank">Crisis Text Line</a></li>
+            <li><a href="https://suicidepreventionlifeline.org" class="text-green-600 hover:text-green-700 font-medium" target="_blank">National Suicide Prevention Lifeline</a></li>
+            <li><a href="https://www.psychologytoday.com" class="text-green-600 hover:text-green-700 font-medium" target="_blank">Psychology Today Therapist Finder</a></li>
+            <li><a href="https://www.betterhelp.com" class="text-green-600 hover:text-green-700 font-medium" target="_blank">BetterHelp Online Therapy</a></li>
+          </ul>
+        </div>
+
+        <!-- Community & Support -->
+        <div class="bg-gradient-to-br from-orange-50 to-orange-100 p-8 rounded-2xl">
+          <div class="w-12 h-12 bg-orange-600 rounded-full flex items-center justify-center mb-6">
+            <span class="text-white text-xl">🤝</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">Community & Support</h3>
+          <ul class="space-y-3">
+            <li><a href="https://www.reddit.com/r/ADHD" class="text-orange-600 hover:text-orange-700 font-medium" target="_blank">r/ADHD on Reddit</a></li>
+            <li><a href="https://www.facebook.com/groups/adhd" class="text-orange-600 hover:text-orange-700 font-medium" target="_blank">ADHD Support Groups</a></li>
+            <li><a href="https://www.meetup.com" class="text-orange-600 hover:text-orange-700 font-medium" target="_blank">Local Meetup Groups</a></li>
+            <li><a href="https://www.discord.gg/adhd" class="text-orange-600 hover:text-orange-700 font-medium" target="_blank">ADHD Discord Communities</a></li>
+          </ul>
+        </div>
+
+        <!-- Apps & Tools -->
+        <div class="bg-gradient-to-br from-teal-50 to-teal-100 p-8 rounded-2xl">
+          <div class="w-12 h-12 bg-teal-600 rounded-full flex items-center justify-center mb-6">
+            <span class="text-white text-xl">📱</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">Apps & Tools</h3>
+          <ul class="space-y-3">
+            <li><a href="https://www.focusmate.com" class="text-teal-600 hover:text-teal-700 font-medium" target="_blank">Focusmate</a></li>
+            <li><a href="https://www.forestapp.cc" class="text-teal-600 hover:text-teal-700 font-medium" target="_blank">Forest App</a></li>
+            <li><a href="https://www.todoist.com" class="text-teal-600 hover:text-teal-700 font-medium" target="_blank">Todoist</a></li>
+            <li><a href="https://www.headspace.com" class="text-teal-600 hover:text-teal-700 font-medium" target="_blank">Headspace</a></li>
+          </ul>
+        </div>
+
+        <!-- Books & Research -->
+        <div class="bg-gradient-to-br from-pink-50 to-pink-100 p-8 rounded-2xl">
+          <div class="w-12 h-12 bg-pink-600 rounded-full flex items-center justify-center mb-6">
+            <span class="text-white text-xl">📖</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">Books & Research</h3>
+          <ul class="space-y-3">
+            <li><a href="https://www.amazon.com/Driven-Distraction-Revised-Recognizing-Attention/dp/0307743152" class="text-pink-600 hover:text-pink-700 font-medium" target="_blank">Driven to Distraction</a></li>
+            <li><a href="https://www.amazon.com/ADHD-2-0-New-Science-Revolutionary/dp/0399594958" class="text-pink-600 hover:text-pink-700 font-medium" target="_blank">ADHD 2.0</a></li>
+            <li><a href="https://www.amazon.com/You-Mean-Im-Not-Lazy/dp/0684801280" class="text-pink-600 hover:text-pink-700 font-medium" target="_blank">You Mean I'm Not Lazy?</a></li>
+            <li><a href="https://www.ncbi.nlm.nih.gov" class="text-pink-600 hover:text-pink-700 font-medium" target="_blank">PubMed Research</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="text-center mt-16">
+        <div class="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-2xl p-8 text-white">
+          <h3 class="text-2xl font-bold mb-4">Need Immediate Help?</h3>
+          <p class="text-lg mb-6">If you're experiencing a mental health crisis, please reach out for immediate support.</p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="tel:988" class="bg-white text-indigo-600 font-semibold px-8 py-3 rounded-full hover:bg-gray-100 transition-colors duration-200">
+              Call 988 (Suicide & Crisis Lifeline)
+            </a>
+            <a href="https://www.crisistextline.org" class="border-2 border-white text-white font-semibold px-8 py-3 rounded-full hover:bg-white hover:text-indigo-600 transition-all duration-200" target="_blank">
+              Text HOME to 741741
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Listen Links -->
+  <section id="listen" class="gradient-bg py-20 text-center text-white relative overflow-hidden">
+    <div class="absolute inset-0 bg-black/20"></div>
+    <div class="relative z-10 max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl md:text-4xl font-bold mb-6">Listen on Your Favorite Platform</h2>
+      <p class="text-xl text-white/90 mb-12 max-w-3xl mx-auto">Available on all major podcast platforms. Subscribe to never miss an episode.</p>
+      
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
+        <a href="https://open.spotify.com/show/example" target="_blank" class="bg-white/10 backdrop-blur-sm text-white font-semibold px-6 py-4 rounded-2xl shadow-lg hover:bg-white/20 transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-3">
+          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.42 1.56-.299.421-1.02.599-1.559.3z"/>
+          </svg>
+          <span>Spotify</span>
+        </a>
+        
+        <a href="https://podcasts.apple.com/podcast/example" target="_blank" class="bg-white/10 backdrop-blur-sm text-white font-semibold px-6 py-4 rounded-2xl shadow-lg hover:bg-white/20 transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-3">
+          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.11-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+          </svg>
+          <span>Apple</span>
+        </a>
+        
+        <a href="https://podcasts.google.com/feed/example" target="_blank" class="bg-white/10 backdrop-blur-sm text-white font-semibold px-6 py-4 rounded-2xl shadow-lg hover:bg-white/20 transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-3">
+          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+            <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+            <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.84.81-.62z"/>
+            <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+          </svg>
+          <span>Google</span>
+        </a>
+        
+        <a href="https://www.audible.com/pd/example" target="_blank" class="bg-white/10 backdrop-blur-sm text-white font-semibold px-6 py-4 rounded-2xl shadow-lg hover:bg-white/20 transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-3">
+          <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+            <path d="M8 8h8v2H8V8zm0 3h8v2H8v-2zm0 3h5v2H8v-2z"/>
+          </svg>
+          <span>Audible</span>
+        </a>
+      </div>
+      
+      <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 max-w-4xl mx-auto">
+        <h3 class="text-2xl font-bold mb-4">New Episode Every Tuesday</h3>
+        <p class="text-white/90 mb-6">Get notified when new episodes drop. Subscribe to your favorite platform and never miss an episode of ADHD Burnout & Mental Health.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="mailto:subscribe@ryanvpodcast.com" class="bg-white text-indigo-600 font-semibold px-8 py-3 rounded-full hover:bg-gray-100 transition-colors duration-200">
+            Get Email Updates
+          </a>
+          <a href="#contact" class="border-2 border-white text-white font-semibold px-8 py-3 rounded-full hover:bg-white hover:text-indigo-600 transition-all duration-200">
+            Contact Ryan
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-white py-20">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Get In Touch</h2>
+        <div class="w-24 h-1 bg-gradient-to-r from-indigo-500 to-purple-600 mx-auto rounded-full"></div>
+        <p class="text-xl text-gray-600 mt-6 max-w-3xl mx-auto">Have a question, story to share, or want to collaborate? We'd love to hear from you.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-12">
+        <div>
+          <h3 class="text-2xl font-bold text-gray-900 mb-6">Connect With Ryan</h3>
+          <div class="space-y-6">
+            <div class="flex items-center">
+              <div class="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center mr-4">
+                <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">Email</h4>
+                <a href="mailto:hello@ryanvpodcast.com" class="text-indigo-600 hover:text-indigo-700">hello@ryanvpodcast.com</a>
+              </div>
+            </div>
+
+            <div class="flex items-center">
+              <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
+                <svg class="w-6 h-6 text-green-600" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">WhatsApp</h4>
+                <a href="https://wa.me/1234567890" class="text-green-600 hover:text-green-700">+1 (234) 567-8900</a>
+              </div>
+            </div>
+
+            <div class="flex items-center">
+              <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                <svg class="w-6 h-6 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">Twitter</h4>
+                <a href="https://twitter.com/ryanvpodcast" class="text-blue-600 hover:text-blue-700">@ryanvpodcast</a>
+              </div>
+            </div>
+
+            <div class="flex items-center">
+              <div class="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center mr-4">
+                <svg class="w-6 h-6 text-pink-600" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.746-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24.009c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001.012.001z"/>
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">Instagram</h4>
+                <a href="https://instagram.com/ryanvpodcast" class="text-pink-600 hover:text-pink-700">@ryanvpodcast</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-gradient-to-br from-indigo-50 to-purple-50 p-8 rounded-2xl">
+          <h3 class="text-2xl font-bold text-gray-900 mb-6">Send a Message</h3>
+          <form class="space-y-6">
+            <div>
+              <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Name</label>
+              <input type="text" id="name" name="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="Your name">
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+              <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="your@email.com">
+            </div>
+            <div>
+              <label for="subject" class="block text-sm font-medium text-gray-700 mb-2">Subject</label>
+              <select id="subject" name="subject" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+                <option>General Question</option>
+                <option>Episode Suggestion</option>
+                <option>Share Your Story</option>
+                <option>Collaboration</option>
+                <option>Technical Support</option>
+              </select>
+            </div>
+            <div>
+              <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+              <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="Tell us what's on your mind..."></textarea>
+            </div>
+            <button type="submit" class="w-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold py-3 px-6 rounded-lg hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 py-12">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid md:grid-cols-4 gap-8 mb-8">
+        <div>
+          <div class="flex items-center space-x-3 mb-4">
+            <div class="w-10 h-10 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-full flex items-center justify-center">
+              <span class="text-white font-bold text-lg">RV</span>
+            </div>
+            <h3 class="text-xl font-bold text-white">Ryan V Podcast</h3>
+          </div>
+          <p class="text-gray-400 text-sm leading-relaxed">Supporting the ADHD community through authentic conversations, practical strategies, and mental health advocacy.</p>
+        </div>
+
+        <div>
+          <h4 class="text-white font-semibold mb-4">Quick Links</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#about" class="hover:text-white transition-colors duration-200">About Ryan</a></li>
+            <li><a href="#episodes" class="hover:text-white transition-colors duration-200">Latest Episodes</a></li>
+            <li><a href="#resources" class="hover:text-white transition-colors duration-200">Resources</a></li>
+            <li><a href="#contact" class="hover:text-white transition-colors duration-200">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-white font-semibold mb-4">Listen</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="https://open.spotify.com/show/example" class="hover:text-white transition-colors duration-200" target="_blank">Spotify</a></li>
+            <li><a href="https://podcasts.apple.com/podcast/example" class="hover:text-white transition-colors duration-200" target="_blank">Apple Podcasts</a></li>
+            <li><a href="https://podcasts.google.com/feed/example" class="hover:text-white transition-colors duration-200" target="_blank">Google Podcasts</a></li>
+            <li><a href="https://www.audible.com/pd/example" class="hover:text-white transition-colors duration-200" target="_blank">Audible</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-white font-semibold mb-4">Connect</h4>
+          <div class="flex space-x-4 mb-4">
+            <a href="https://twitter.com/ryanvpodcast" class="text-gray-400 hover:text-white transition-colors duration-200" target="_blank">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+              </svg>
+            </a>
+            <a href="https://instagram.com/ryanvpodcast" class="text-gray-400 hover:text-white transition-colors duration-200" target="_blank">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.746-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24.009c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001.012.001z"/>
+              </svg>
+            </a>
+            <a href="https://wa.me/1234567890" class="text-gray-400 hover:text-white transition-colors duration-200" target="_blank">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+              </svg>
+            </a>
+          </div>
+          <p class="text-sm text-gray-400">hello@ryanvpodcast.com</p>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-800 pt-8 text-center">
+        <p class="text-sm text-gray-400">&copy; 2025 Ryan V Podcast. All rights reserved. | <a href="#" class="hover:text-white transition-colors duration-200">Privacy Policy</a> | <a href="#" class="hover:text-white transition-colors duration-200">Terms of Service</a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
